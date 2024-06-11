@@ -1,4 +1,4 @@
-package Model;
+package com.example.myapplication2.Model;
 
 public class Sudoku {
     private int[][] board;

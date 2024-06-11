@@ -1,4 +1,4 @@
-package View;
+package com.example.myapplication2.View;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -7,15 +7,14 @@ import android.text.InputType;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.GridLayout;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.myapplication2.R;
-import Controller.SudokuController;
-import Model.Sudoku;
+import com.example.myapplication2.Controller.SudokuController;
+import com.example.myapplication2.Model.Sudoku;
 
 public class SudokuView {
     private TextView[][] cells = new TextView[9][9];

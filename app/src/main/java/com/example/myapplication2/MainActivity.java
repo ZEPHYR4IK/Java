@@ -8,10 +8,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.myapplication2.R;
-
-import Controller.SudokuController;
-import View.SudokuView;
+import com.example.myapplication2.Controller.SudokuController;
+import com.example.myapplication2.View.SudokuView;
 
 public class MainActivity extends AppCompatActivity {
     private SudokuController controller;

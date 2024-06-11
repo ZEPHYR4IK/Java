@@ -1,8 +1,8 @@
-package Controller;
+package com.example.myapplication2.Controller;
 
-import Model.Sudoku;
-import Model.SudokuGenerator;
-import Model.SudokuSolver;
+import com.example.myapplication2.Model.Sudoku;
+import com.example.myapplication2.Model.SudokuGenerator;
+import com.example.myapplication2.Model.SudokuSolver;
 
 public class SudokuController {
     private Sudoku sudoku;
