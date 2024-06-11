@@ -1,4 +1,4 @@
-package com.example.myapplication2;
+package Model;
 
 public class SudokuSolver {
 
@@ -57,4 +57,3 @@ public class SudokuSolver {
         return true;
     }
 }
-

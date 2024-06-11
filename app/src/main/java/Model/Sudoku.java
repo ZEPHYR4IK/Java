@@ -1,4 +1,4 @@
-package com.example.myapplication2;
+package Model;
 
 public class Sudoku {
     private int[][] board;
@@ -31,7 +31,7 @@ public class Sudoku {
         return true;
     }
 
-    private boolean isSafe(int[][] board, int row, int col, int num) {
+    public boolean isSafe(int[][] board, int row, int col, int num) {
         for (int x = 0; x < SIZE; x++) {
             if (x != col && board[row][x] == num) {
                 return false;

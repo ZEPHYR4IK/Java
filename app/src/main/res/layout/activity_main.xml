@@ -25,26 +25,5 @@
 
         </GridLayout>
 
-        <!-- Кнопка "Решить" -->
-        <Button
-            android:id="@+id/solveButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/blue_button_background"
-            android:text="Решить"
-            android:textColor="@android:color/white"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <!-- Кнопка "Заново" с отступом сверху -->
-        <Button
-            android:id="@+id/resetButton"
-            android:layout_width="374dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/red_button_background"
-            android:text="Заново"
-            android:textColor="@android:color/white"
-            tools:ignore="TouchTargetSizeCheck" />
-
     </LinearLayout>
 </FrameLayout>

@@ -1,4 +1,4 @@
-package com.example.myapplication2;
+package Model;
 
 import java.util.Random;
 
@@ -45,5 +45,3 @@ public class SudokuGenerator {
         }
     }
 }
-
-
